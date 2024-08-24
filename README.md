@@ -6,7 +6,6 @@
 * [Introduction](#introduction)
 * [Features](#features)
 * [Architecture](#architecture)
-* [Installation](#installation)
 * [Usage](#usage)
 * [Data Sourcing and Management](#data-sourcing-and-management)
 * [Sentiment Analysis](#sentiment-analysis)
@@ -38,50 +37,6 @@ The Portfolio Analysis and Management App is a comprehensive tool designed to as
 
 ## Architecture
 The app is built using a combination of Python, SQL, NoSQL, React.js, and various APIs. The architecture is modular, with separate components for data sourcing, sentiment analysis, predictive modeling, and the user interface.
-
-## Installation
-### Prerequisites
-- Python 3.x
-- Node.js
-- PostgreSQL
-- MongoDB
-- Redis (optional for caching)
-- Docker (optional for containerized deployment)
-
-### Setup
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/portfolio-analysis-app.git
-   cd portfolio-analysis-app
-   ```
-
-2. **Install Python dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Install Node.js dependencies:**
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-4. **Set up the databases:**
-   - **PostgreSQL**: Create a database for storing stock data and sentiment scores.
-   - **MongoDB**: Set up a NoSQL database for raw text data storage.
-
-5. **Configure environment variables:**
-   - Create a `.env` file in the root directory and add your API keys, database credentials, and other configurations.
-
-6. **Run the application:**
-   ```bash
-   # Start the backend
-   python app.py
-
-   # Start the frontend
-   cd frontend
-   npm start
-   ```
 
 ## Usage
 - **Dashboard**: View overall portfolio performance and individual stock analytics.
